@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.Participant {
+  display: flex;
+  margin-top: 5px;
+}
+
+.user-avatar {
+  margin-top: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  font-size: 10px;
+}
+
+.dot {
+
+}
+
+.in-session {
+
+}
+
+.hidden {
+  
+}
