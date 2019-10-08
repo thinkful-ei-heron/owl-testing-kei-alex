@@ -6,11 +6,14 @@ exports[`Participant tests renders the UI as expected 1`] = `
 >
   <img
     alt=""
+    className="user-avatar"
     src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
   />
-  <b>
+  <h3
+    className="user-name"
+  >
     Koren Templeton
-  </b>
+  </h3>
   <span
     className="dot in-session"
   />
@@ -19,6 +22,5 @@ exports[`Participant tests renders the UI as expected 1`] = `
   >
     on stage
   </span>
-  }
 </div>
 `;

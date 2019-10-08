@@ -3,12 +3,10 @@ import './Participant.css'
 
 export default function Participant(props) {
   return (
-    <div className = "Participant">
+    <div className = "Participant" key = {props.id}>
       <img className= "user-avatar" src= {props.avatar} alt=""></img>
-      <b>{props.name}</b>
-      <br></br>
-      {props.inSession ? <span className="dot in-session"></span> :  <span className="dot hidden"></span>}
-      <span className="status">{props.onStage ? 'on stage' : 'in session'}</span>
+      <h6 className="user-name">{props.name}</h6>
+      {props.inSession ? <span className="dot in-session"><div>{props.onStage ? 'on stage' : 'in session'}</div></span> :  <span className="dot hidden"><div>left session</div></span>}
     </div>
   )
 }

@@ -5,6 +5,7 @@
 .Participant {
   display: flex;
   margin-top: 5px;
+  text-align: left;
 }
 
 .user-avatar {
@@ -13,6 +14,22 @@
   height: 30px;
   border-radius: 100%;
   font-size: 10px;
+}
+
+.user-name {
+  position: relative;
+    color: #404853;
+    margin-bottom: 0;
+}
+
+.user-name, .status {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #8e939a;
+  padding-left: 20px;
+  position: relative;
+  top: -10px;
 }
 
 .dot {

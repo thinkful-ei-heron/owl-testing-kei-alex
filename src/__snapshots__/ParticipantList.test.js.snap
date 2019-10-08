@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ParticipantList tests renders the UI as expected 1`] = `
+<ul
+  className="participant-list"
+>
+  <li
+    className="user-tab"
+  >
+    <div
+      className="Participant"
+    >
+      <img
+        alt=""
+        className="user-avatar"
+        src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+      />
+      <h3
+        className="user-name"
+      >
+        Ashla Attwool
+      </h3>
+      <span
+        className="dot in-session"
+      />
+      <span
+        className="status"
+      >
+        on stage
+      </span>
+    </div>
+  </li>
+  <li
+    className="user-tab"
+  >
+    <div
+      className="Participant"
+    >
+      <img
+        alt=""
+        className="user-avatar"
+        src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+      />
+      <h3
+        className="user-name"
+      >
+        Caty Flucker
+      </h3>
+      <span
+        className="dot in-session"
+      />
+      <span
+        className="status"
+      >
+        in session
+      </span>
+    </div>
+  </li>
+  <li
+    className="user-tab"
+  >
+    <div
+      className="Participant"
+    >
+      <img
+        alt=""
+        className="user-avatar"
+        src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+      />
+      <h3
+        className="user-name"
+      >
+        Frank Runciman
+      </h3>
+      <span
+        className="dot in-session"
+      />
+      <span
+        className="status"
+      >
+        in session
+      </span>
+    </div>
+  </li>
+  <li
+    className="user-tab"
+  >
+    <div
+      className="Participant"
+    >
+      <img
+        alt=""
+        className="user-avatar"
+        src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+      />
+      <h3
+        className="user-name"
+      >
+        Koren Templeton
+      </h3>
+      <span
+        className="dot in-session"
+      />
+      <span
+        className="status"
+      >
+        on stage
+      </span>
+    </div>
+  </li>
+  <li
+    className="user-tab"
+  >
+    <div
+      className="Participant"
+    >
+      <img
+        alt=""
+        className="user-avatar"
+        src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+      />
+      <h3
+        className="user-name"
+      >
+        Axe Kubicka
+      </h3>
+      <span
+        className="dot hidden"
+      />
+      <span
+        className="status"
+      >
+        in session
+      </span>
+    </div>
+  </li>
+</ul>
+`;
