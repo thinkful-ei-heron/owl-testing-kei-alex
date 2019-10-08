@@ -6,7 +6,8 @@ const STORE = {
       avatar:
           'https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: true
+      onStage: true,
+      user: false
     },
     {
       id: 2,
@@ -14,14 +15,16 @@ const STORE = {
       avatar:
           'https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: false
+      onStage: true,
+      user: true
     },
     {
       id: 3,
       name: 'Axe Kubicka',
       avatar: 'https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1',
       inSession: false,
-      onStage: false
+      onStage: false,
+      user: false
     },
     {
       id: 4,
@@ -29,7 +32,8 @@ const STORE = {
       avatar:
           'https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: false
+      onStage: false,
+      user: false
     },
     {
       id: 5,
@@ -37,7 +41,8 @@ const STORE = {
       avatar:
           'https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: true
+      onStage: true,
+      user: false
     }
   ]
 };
