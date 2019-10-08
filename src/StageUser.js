@@ -2,7 +2,6 @@ import React from 'react';
 
 
 export default function StageUser(props) {
-  console.log(props);
   return(
   <div>
     <div className="volume-bar">

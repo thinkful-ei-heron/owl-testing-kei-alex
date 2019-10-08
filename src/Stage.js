@@ -1,5 +1,4 @@
 import React from 'react';
-import STORE from './STORE';
 import StageNames from './StageNames';
 import StageAvatar from './StageAvatar';
 import StageUser from './StageUser';

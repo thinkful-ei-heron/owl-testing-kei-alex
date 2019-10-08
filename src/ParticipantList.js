@@ -3,7 +3,6 @@ import Participant from './Participant';
 import './ParticipantList.css';
 
 export default function ParticipantList (props) {
-  console.log(props);
   let participantsSort = props.participants;
   
   participantsSort.sort(function(a, b) {
